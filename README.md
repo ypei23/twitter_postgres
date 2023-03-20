@@ -51,14 +51,6 @@ In this first assignment, we will focus on:
        This file will both call the `load_tweets.py` file,
        and use the SQL `COPY` command to load data into the denormalized database.
 
-> **GRADING:**
-> There are 9 total test cases in the `sql` folder.
-> If you implement the code above correctly,
-> then the output of the `SELECT` commands in each test case should be the same for each database.
-> The assignment is worth 32 points (16 points per database).
-> If you pass all test cases for a database, you will get 16 points.
-> If you fail any test cases, you will receive -8 points for the first test case and -1 point for each additional failing test case.
-
 > **HINT:**
 > As you debug your insert code, you may need to delete your database.
 > Calling
@@ -83,3 +75,12 @@ In this first assignment, we will focus on:
 ## Submission
 
 Upload a link to your forked github repo on sakai
+
+> **GRADING:**
+> There are 9 total test cases in the `sql` folder.
+> If you implement the code above correctly,
+> then the output of the `SELECT` commands in each test case should be the same for each database.
+> The assignment is worth 32 points (16 points per database).
+> If you pass all test cases for a database, you will get 16 points.
+> If you fail any test cases, you will receive -8 points for the first test case and -1 point for each additional failing test case.
+
