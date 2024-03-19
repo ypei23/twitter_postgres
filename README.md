@@ -16,13 +16,13 @@ In this first assignment, we will focus on:
 1. Getting started:
 
     1. Fork this repo
-    1. Enable github action on your fork
+    1. Enable github actions on your fork
     1. Clone the fork onto the lambda server
     1. Modify the `README.md` file so that the test case image points to your forked repo
 
 1. Main tasks:
 
-    1. There are two postgres containers defined in the `docker-compose.yml` file ports:
+    1. There are two postgres containers defined in the `docker-compose.yml` file services:
        one containes a normalized database schema, and the other is denormalized.
        You will need to update the ports for each database so that they do not conflict with anyone else.
 
@@ -57,7 +57,7 @@ In this first assignment, we will focus on:
 > then the output of the `SELECT` commands in each test case should be the same for each database.
 > The assignment is worth 32 points (16 points per database).
 > If you pass all test cases for a database, you will get 16 points.
-> If you fail any test cases, you will receive -8 points for the first test case and -1 point for each additional failing test case.
+> If you fail any test cases, you will receive -8 points for the first test case and -4 points for each additional failing test case.
 
 > **HINT:**
 > As you debug your insert code, you may need to delete your database.
