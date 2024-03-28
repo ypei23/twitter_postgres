@@ -80,7 +80,8 @@ Upload a link to your forked github repo on sakai
 > There are 9 total test cases in the `sql` folder.
 > If you implement the code above correctly,
 > then the output of the `SELECT` commands in each test case should be the same for each database.
-> The assignment is worth 32 points (16 points per database).
-> If you pass all test cases for a database, you will get 16 points.
-> If you fail any test cases, you will receive -8 points for the first test case and -2 point for each additional failing test case.
+> The assignment is worth 16 points (8 points per database).
+> If you pass all test cases for a database, you will get 8 points.
+> If you fail any test cases, you will receive -4 points for the first test case and -1 point for each additional failing test case.
+> After failing 5 test cases, you will get a 0/8 for that databases (you will not go negative).
 
