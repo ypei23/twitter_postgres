@@ -102,7 +102,7 @@ def insert_tweet(connection,tweet):
         'id_tweets':tweet['id'],
         })
         if res.first() is not None:
-        return
+            return
 
         ########################################
         # insert into the users table
