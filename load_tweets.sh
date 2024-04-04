@@ -7,10 +7,10 @@ files='
 test-data.zip
 '
 
-#echo 'load normalized'
-#for file in $files; do
-#	python3 -u load_tweets.py --db postgresql://postgres:pass@localhost:2351 --inputs $file
-#done
+echo 'load normalized'
+for file in $files; do
+	python3 -u load_tweets.py --db postgresql://postgres:pass@localhost:2351 --inputs $file
+done
 
 
 echo 'load denormalized'
